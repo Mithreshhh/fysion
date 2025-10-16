@@ -7,10 +7,12 @@ import { TransitionLink } from "./TransitionLink";
 
 const navLinks = [
   { name: "Home", href: "/home" },
-  { name: "About", href: "/about" },
+  { name: "Services", href: "/services" },
   { name: "Projects", href: "/projects" },
   { name: "Pricing", href: "/pricing" },
-  { name: "Crew", href: "/crew" }
+  { name: "Crew", href: "/crew" },
+  { name: "About", href: "/about" },
+  { name: "Contact", href: "mailto:hello@fysion.com" }
 ];
 
 export function Navbar() {
